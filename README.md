@@ -1,5 +1,7 @@
 # k3-code-reviewer
 
+[![CI](https://github.com/230593641/k3-code-reviewer/actions/workflows/ci.yml/badge.svg)](https://github.com/230593641/k3-code-reviewer/actions)
+
 基于 **Kimi K3**（Anthropic 兼容端点）的 AI 代码审查命令行工具。输入 Git diff 或文件内容，K3 以"资深审查员"身份输出结构化的问题清单与总体结论。
 
 > 本项目是"智能体协同开发"实验的实战延伸：把实验中"审查员智能体只依据代码证据下结论、逐条给出位置与建议"的监督原则，做成一个开箱即用的 CLI 工具。
