@@ -1,0 +1,16 @@
+# 忽略本地构建产物与密钥相关文件
+target/
+dependency-reduced-pom.xml
+*.class
+*.log
+*.err
+
+# 审查中间临时文件（示例文档保留在 docs/）
+docs/body-test.json
+docs/review-*.err
+
+# API Key 等敏感文件（如果误放到此目录）
+.env
+.env.*
+*.key
+secrets.*
